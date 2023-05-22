@@ -22,7 +22,6 @@ function posicaoRandomica() {
     posicaoX = posicaoX < 0 ? 0 : posicaoX
     posicaoY = posicaoY < 0 ? 0 : posicaoY
 
-    console.log(posicaoX, posicaoY);
 
     var mosquito = document.createElement('img')
     mosquito.src = 'img/mosca.png'
@@ -34,7 +33,6 @@ function posicaoRandomica() {
 
     document.body.appendChild(mosquito)
 
-    console.log(ladoAleatorio());
 
 }
 
